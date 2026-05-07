@@ -20,7 +20,28 @@ A modern, responsive web application that provides real-time weather information
 
 ---
 
-### 🔢 [Simple Calculator](./Calculator.py)
+### � [Clothes Decider App](./clothes_decider/)
+A friendly Flask web app that helps you randomly choose what clothes to take by entering options line by line.
+
+**Features:**
+- 🎲 Randomly selects one clothing item from your list
+- 📝 Keeps your entered options visible after submission
+- ⚠️ Handles empty input with a clear message
+- 🎨 Simple, responsive UI with clean styling
+
+**Tech Stack:** Python, Flask, HTML, CSS
+
+**Usage:**
+```bash
+cd clothes_decider
+python app.py
+```
+
+Then open `http://localhost:5000` in your browser.
+
+---
+
+### �🔢 [Simple Calculator](./Calculator.py)
 A command-line calculator application with basic arithmetic operations.
 
 **Features:**
@@ -53,6 +74,12 @@ python app.py
 
 Then open `http://localhost:5000` in your browser!
 
+### Clothes Decider Setup
+```bash
+cd clothes_decider
+python app.py
+```
+
 ### Calculator Setup
 ```bash
 python Calculator.py
@@ -63,6 +90,13 @@ python Calculator.py
 ```
 Ficheiros de Programação/
 ├── Calculator.py              # Command-line calculator
+├── clothes_decider/           # Flask clothes decider application
+│   ├── app.py                # Main Flask application
+│   ├── requirements.txt      # Python dependencies
+│   ├── static/
+│   │   └── style.css        # CSS styling
+│   └── templates/
+│       └── index.html       # HTML template
 ├── weather_app/               # Flask weather application
 │   ├── app.py                # Main Flask application
 │   ├── requirements.txt      # Python dependencies
