@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Decider</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Random Clothes Decider</h1>
+    <p>Enter your clothes options, one per line, and let randomness decide what you should take!</p>
+    <form method="post">
+        <textarea name="clothes" rows="10" cols="50" placeholder="e.g.&#10;T-shirt&#10;Jeans&#10;Sweater&#10;Shorts">{{ clothes_input }}</textarea><br><br>
+        <button type="submit">Decide for me!</button>
+    </form>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    {% if choice %}
+        <h2>You should take: {{ choice }}</h2>
+        <p class="result-note">Want another suggestion? Just press the button again.</p>
+    {% endif %}
+</body>
+</html>
