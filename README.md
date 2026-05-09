@@ -1,6 +1,6 @@
 # 🚀 João's Programming Projects
 
-Welcome to my programming portfolio! This repository contains two exciting Python projects that showcase my skills in web development and algorithm implementation.
+Welcome to my programming portfolio! This repository contains multiple exciting projects that showcase my skills in web development, Python programming, and interactive applications.
 
 ## 📁 Projects Overview
 
@@ -20,7 +20,7 @@ A modern, responsive web application that provides real-time weather information
 
 ---
 
-### � [Clothes Decider App](./clothes_decider/)
+### 👕 [Clothes Decider App](./clothes_decider/)
 A friendly Flask web app that helps you randomly choose what clothes to take by entering options line by line.
 
 **Features:**
@@ -41,7 +41,25 @@ Then open `http://localhost:5000` in your browser.
 
 ---
 
-### �🔢 [Simple Calculator](./Calculator.py)
+### 🎡 [Spin Wheel App](./spin_wheel.html)
+An interactive web app where you can create a custom spinning wheel with any names you want and spin to find a winner!
+
+**Features:**
+- 🎯 Add custom names to the wheel
+- 🎨 Automatic colorful segments for each entry
+- 🎪 Smooth spinning animation with deceleration
+- 🎉 Confetti celebration and trumpet sound when a winner is chosen
+- ➡️ Visual arrow pointer pointing to the winner
+- 📱 Fully responsive design
+- ✨ No dependencies - pure HTML, CSS, and JavaScript
+
+**Tech Stack:** HTML, CSS, JavaScript (Canvas API, Web Audio API)
+
+**How to Use:** Simply open `spin_wheel.html` in your web browser and start adding names!
+
+---
+
+### 🔢 [Simple Calculator](./Calculator.py)
 A command-line calculator application with basic arithmetic operations.
 
 **Features:**
@@ -62,6 +80,7 @@ python Calculator.py
 ### Prerequisites
 - Python 3.13+ installed
 - Git for version control
+- Modern web browser (for web apps)
 
 ### Weather App Setup
 ```bash
@@ -80,6 +99,11 @@ cd clothes_decider
 python app.py
 ```
 
+Then open `http://localhost:5000` in your browser!
+
+### Spin Wheel App Setup
+Simply open `spin_wheel.html` in your web browser - no installation needed!
+
 ### Calculator Setup
 ```bash
 python Calculator.py
@@ -90,6 +114,7 @@ python Calculator.py
 ```
 Ficheiros de Programação/
 ├── Calculator.py              # Command-line calculator
+├── spin_wheel.html            # Interactive spin wheel app
 ├── clothes_decider/           # Flask clothes decider application
 │   ├── app.py                # Main Flask application
 │   ├── requirements.txt      # Python dependencies
@@ -112,12 +137,15 @@ Ficheiros de Programação/
 
 Through these projects, I've demonstrated:
 
-- **Web Development:** Building RESTful APIs with Flask
-- **Frontend Design:** Creating responsive, modern user interfaces
+- **Web Development:** Building RESTful APIs with Flask and creating interactive web applications
+- **Frontend Design:** Creating responsive, modern user interfaces with smooth animations
+- **Canvas API:** Drawing and animating graphics with HTML5 Canvas
+- **Web Audio API:** Generating sound effects programmatically
 - **API Integration:** Working with external weather APIs
 - **Version Control:** Using Git and GitHub for project management
 - **Python Programming:** Clean code, functions, and user input handling
-- **Problem Solving:** Implementing mathematical operations and error handling
+- **JavaScript ES6+:** Modern JavaScript features for interactive applications
+- **Problem Solving:** Implementing mathematical operations, animations, and user interactions
 
 ## 🚀 Future Enhancements
 
@@ -127,6 +155,12 @@ Through these projects, I've demonstrated:
 - [ ] Location-based weather detection
 - [ ] Multiple language support
 - [ ] Weather history and trends
+
+### Spin Wheel App
+- [ ] Save wheel configurations
+- [ ] Sound effect options
+- [ ] Custom wheel colors
+- [ ] Share wheel via URL
 
 ### Calculator
 - [ ] Scientific calculator functions (sin, cos, tan, etc.)
@@ -149,5 +183,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ⭐ **Feel free to star this repository if you find it helpful!**
 
-*Built with ❤️ using Python and modern web technologies*</content>
-<parameter name="filePath">c:\Users\joaop\OneDrive\Ficheiros de Programação\README.md
+*Built with ❤️ using Python and modern web technologies*
